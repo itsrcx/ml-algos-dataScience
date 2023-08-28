@@ -1,0 +1,9 @@
+1) Ensemble RandomForest technique is used to reduce the variance or overfitting of the model.
+> we train each base learners and then their is majority voting after each model predict.
+> prediction is done using sample with replacement both for rows and columns.
+2) Bagging : models are trained parallely.
+3) Models are trained sequentially.
+4) Regression is based on low varience concept and classification pridiction is done using the classifier in D-tree. 
+5) OOB(out of bag) >> some data might not be used in RandomForest so can be used as validation data using OOB = Ture in params
+6) We can use pandas_profiling tool or autoviz or sweetwiz or dtale for the EDA
+7) Boosting apply confidence or weights to the week learners and combinely they form a strong learner.
